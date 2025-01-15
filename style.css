@@ -3,7 +3,7 @@ body {
     height: 100%;
     position: absolute;
     direction: rtl;
-    overflow: visible;
+    overflow: scroll;
 }
 
 @font-face {
@@ -19,7 +19,7 @@ body {
 * {
     background-size: 100% 100%;
     margin: 0;
-    overflow: visible;
+    overflow: scroll;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
