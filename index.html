@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Progressive Web app">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="model-viewer.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body id="body" dir="rtl">
+    <div class="bg"></div>
+
+    <div id="logos">
+        <img src="assets/logoGapa.png" id="logoGapa"/>
+        <img src="assets/logoBhd.png" id="logoBhd"/>
+    </div>
+    
+    <!-- start open page -->
+    <div id="startPage">
+        <p id="titleTaleb">לומדת תל"ב</p>
+        <p id="titleBhd">בהל"צ 14</p>
+    </div>
+    <!-- end open page -->
+
+    <!-- next button of the lomda -->
+    <div>
+        <img src="assets/nextBtn.png" id="nextBtn"/>
+        <img src="assets/backBtn.png" id="backBtn"/>
+    </div>
+    <!-- next button of the lomda -->
+
+    <!-- start explantion page -->
+    <div id="explainTaleb">
+        <p id="titleExp">מהו תל"ב?</p>
+        <p id="explain"></p>
+    </div>
+    <!-- start explantion page -->
+
+    <!-- start instructions page -->
+    <div id="instuctionTaleb">
+        <p id="titleInst">הוראות</p>
+        <div>
+            <img src="assets/point.png" id="point1"/>
+            <p id="exp1">הלומדה מחולקת לפי נושאי התל"ב, תוכלו להיכנס לכל נושא ולעבור על הנהלים המופיעים בו.</p>
+        </div>
+        <div>
+            <img src="assets/point.png" id="point2"/>
+            <p id="exp2">אין סדר ספציפי ללמידה- לבחירתכם.</p>
+        </div>
+        <div>
+            <img src="assets/point.png" id="point3"/>
+            <p id="exp3">לאחר שעברתם על כלל הנהלים של הפרק ואתם מרגשים בטוחים לחצו על הכפתור (לתרגול) ושם תוכלו לתרגל שאלות בנושא הפרק שאותו בחרתם.</p>
+        </div>
+        <div>
+            <img src="assets/point.png" id="point4"/>
+            <p id="exp4">הלומדה נועדה בשבילכם- אין ציון עובר.</p>
+        </div>
+    </div>
+    <!-- end instructions page -->
+
+    <!-- start learning taleb page -->
+    <div id="learningTaleb">
+        <div id="chap1">
+            <img src="assets/iconChap1.png" id="iconChap"/>
+            <p style="position: absolute; top: 15vh;">1. ניהול הדרכה</p>
+        </div>
+        <div id="chap2">
+            <img src="assets/iconChap1.png" id="iconChap"/>
+            <p style="position: absolute; top: 15vh;">2. תכנית הכשרה</p>
+        </div>
+        <div id="chap3">
+            <img src="assets/iconChap1.png" id="iconChap"/>
+            <p style="position: absolute; top: 15vh;">3. סגל הכשרה</p>
+        </div>
+        <div id="chap4">
+            <img src="assets/iconChap1.png" id="iconChap"/>
+            <p style="position: absolute; top: 15vh; right: 3vw;">4. חניכים</p>
+        </div>
+        <div id="chap5">
+            <img src="assets/iconChap1.png" id="iconChap"/>
+            <p style="position: absolute; top: 15vh;">5. סביבת הדרכה</p>
+        </div>
+
+        <div id="backLearning">
+            <img src="assets/homeBtn.png" id="iconHome"/>
+            <p id="titlePage"></p>
+            <div id="boxContainer">
+
+            </div>
+
+        </div>
+        <div id="contentSubject">
+            <div id="titleContent"></div>
+            <div id="explainContent"></div>
+            <img src="assets/nextBtn.png" id="nextBtnContent"/>
+            <img src="assets/backBtn.png" id="backBtnContent"/>
+            <img src="assets/homeBtn.png" id="finishBtnContent"/>
+        </div>
+
+    </div>
+    <!-- end learning taleb page -->
+
+</body>
+
+</html>
